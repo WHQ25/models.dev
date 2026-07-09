@@ -1,0 +1,21 @@
+# ByteDance Doubao Seed 2.0 Code, served on Volcengine Ark.
+# 256K context, multimodal (text + image) input, deep-thinking capable.
+# Limits/flags per Ark model list & pricing (accessed 2026-07-09):
+# https://www.volcengine.com/docs/82379/1544106
+name = "Doubao Seed 2.0 Code"
+description = "ByteDance Doubao coding model with 256K context for agentic development"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+release_date = "2026-02-14"
+last_updated = "2026-02-14"
+open_weights = false
+
+[limit]
+context = 262_144
+output = 65_536
+
+[modalities]
+input = ["text", "image"]
+output = ["text"]

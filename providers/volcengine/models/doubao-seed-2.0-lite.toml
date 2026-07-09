@@ -1,0 +1,7 @@
+base_model = "bytedance/doubao-seed-2.0-lite"
+reasoning_options = []
+
+[cost]
+input = 0.083
+output = 0.5
+cache_read = 0.017

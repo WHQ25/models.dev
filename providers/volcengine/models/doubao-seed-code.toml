@@ -1,0 +1,7 @@
+base_model = "bytedance/doubao-seed-code"
+reasoning_options = []
+
+[cost]
+input = 0.167
+output = 1.111
+cache_read = 0.033

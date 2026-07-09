@@ -1,0 +1,10 @@
+# Volcengine Ark Agent Plan — Anthropic-compatible endpoint for agent tools.
+# ANTHROPIC_BASE_URL = https://ark.cn-beijing.volces.com/api/plan (SDK appends /v1/messages).
+# Dedicated Agent Plan API key required (Coding Plan keys are rejected).
+# Subscription plan: model quota is bundled, so per-token cost is 0.
+# https://www.volcengine.com/docs/82379/2373740 (accessed 2026-07-09)
+name = "Volcengine Ark Agent Plan"
+env = ["ARK_API_KEY"]
+npm = "@ai-sdk/anthropic"
+doc = "https://www.volcengine.com/docs/82379/2373740"
+api = "https://ark.cn-beijing.volces.com/api/plan/v1"

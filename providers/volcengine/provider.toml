@@ -1,0 +1,10 @@
+# Volcengine Ark — pay-as-you-go, OpenAI-compatible endpoint.
+# Base URL POSTs to /api/v3/chat/completions. Prices below are Ark list prices
+# in CNY/M tokens converted to USD at 7.2 CNY/USD, using the [0,32]K input tier
+# for tiered models (see PR body for tier detail).
+# https://www.volcengine.com/docs/82379/1544106 (accessed 2026-07-09)
+name = "Volcengine Ark"
+env = ["ARK_API_KEY"]
+npm = "@ai-sdk/openai-compatible"
+doc = "https://www.volcengine.com/docs/82379/1544106"
+api = "https://ark.cn-beijing.volces.com/api/v3"

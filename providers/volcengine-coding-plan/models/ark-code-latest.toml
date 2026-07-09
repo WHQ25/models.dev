@@ -1,0 +1,24 @@
+name = "Ark Code Latest"
+description = "Auto-routing alias managed in the Ark console; resolves to the active plan model"
+attachment = false
+reasoning = true
+temperature = true
+tool_call = true
+open_weights = false
+release_date = "2026-02-14"
+last_updated = "2026-02-14"
+reasoning_options = []
+
+[cost]
+input = 0
+output = 0
+cache_read = 0
+cache_write = 0
+
+[limit]
+context = 262_144
+output = 65_536
+
+[modalities]
+input = ["text", "image"]
+output = ["text"]
